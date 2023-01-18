@@ -1,8 +1,8 @@
 [versions]
-android-gradle-plugin = "8.0.0-alpha11"
+android-gradle-plugin = "8.1.0-alpha01"
 compileSdk = "33"
-compose-compiler = "1.4.0-alpha02"
-kotlin-android = "1.7.21"
+compose-compiler = "1.4.0-dev-k1.8.0-33c0ad36f83"
+kotlin-android = "1.8.0"
 minSdk = "24"
 targetSdk = "33"
 
