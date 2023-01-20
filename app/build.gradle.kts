@@ -20,7 +20,7 @@ android {
         minSdk = libs.versions.minSdk.get().toInt()
         targetSdk = libs.versions.targetSdk.get().toInt()
         versionCode = 1
-        versionName = "0.0.1"
+        versionName = "0.1.1"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables.useSupportLibrary = true
     }
@@ -99,10 +99,13 @@ dependencies {
 
     // Compose
     implementation(libs.androidx.activity.compose)
-    implementation(libs.androidx.compose.material3)
+    implementation(libs.bundles.androidx.compose.material3)
     implementation(libs.bundles.androidx.compose.ui)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
     debugImplementation(libs.androidx.compose.ui.tooling)
+
+    // Navigation
+    implementation(libs.androidx.navigation.compose)
 
     // Lifecycle
     implementation(libs.bundles.androidx.lifecycle)
